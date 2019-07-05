@@ -1,0 +1,9 @@
+<templateSet group="Python">
+  <template name="for" value="for $VAR$ in $ITERABLE$:&#10;    $END$" description="Iterate (for ... in ...)" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="collectionElementName(ITERABLE)" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ITERABLE" expression="pyIterableVariable()" defaultValue="&quot;range()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
