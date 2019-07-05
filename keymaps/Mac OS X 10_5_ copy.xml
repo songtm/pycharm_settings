@@ -18,11 +18,22 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EvaluateExpression" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
@@ -82,6 +93,12 @@
   <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
@@ -92,14 +109,23 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="Stop" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta f2" />
   </action>
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Vcs.Log.Refresh" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="XDebugger.SetValue" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
