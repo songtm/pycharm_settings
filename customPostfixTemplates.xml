@@ -154,6 +154,10 @@
                   <option name="enabled" value="true" />
                   <option name="file" value="${PLUGIN}/python/for.postfixTemplates" />
                 </VFile>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="file" value="${PLUGIN}/python/var.postfixTemplates" />
+                </VFile>
               </list>
             </value>
           </entry>
